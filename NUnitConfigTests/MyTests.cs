@@ -20,7 +20,7 @@ namespace NUnitConfigTests
 
             // connectionStrings
             var connString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
-            Assert.AreEqual("Server=(local);user=john", connString);
+            Assert.AreEqual("Server=(local);user=John", connString);
         }
     }
 }
