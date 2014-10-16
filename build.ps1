@@ -1,1 +1,3 @@
+Write-Host restoring packages...
 nuget restore
+Write-Host restored!
