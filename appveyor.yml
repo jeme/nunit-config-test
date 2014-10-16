@@ -1,2 +1,4 @@
-before_build:
-  - nuget restore
+#before_build:
+#  - nuget restore
+build_script:
+  - ps: .\build.ps1
