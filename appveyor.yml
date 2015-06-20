@@ -1,6 +1,6 @@
 before_build:
   - nuget restore
 before_test:
-  - ps: start-sleep -s 180
+  #- ps: start-sleep -s 180
 #build_script:
 #  - ps: .\build.ps1
