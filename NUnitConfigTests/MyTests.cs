@@ -68,7 +68,7 @@ namespace NUnitConfigTests
 					try
 					{
 						int length = client.Receive(new byte[256]);
-						length.Should().Be(256);
+						Assert.AreEqual(length, 256);
 					}
 					catch (Exception e)
 					{
