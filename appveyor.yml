@@ -1,3 +1,4 @@
+os: Visual Studio 2013
 before_build:
   - nuget restore
 before_test:
