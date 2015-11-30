@@ -1,7 +1,11 @@
-os: Visual Studio 2015 RC
+#os: Visual Studio 2015 RC
+
+configuration: Release
+
 before_build:
   - nuget restore
-before_test:
+
+#before_test:
   #- ps: start-sleep -s 180
 #build_script:
 #  - ps: .\build.ps1
