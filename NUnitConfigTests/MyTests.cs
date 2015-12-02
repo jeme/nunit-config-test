@@ -25,7 +25,7 @@ namespace NUnitConfigTests
             Assert.AreEqual("Server=(local);user=John", connString);
         }
         
-		[Test]
+		//[Test]
 		public void TestConnect28()
 		{
 			for (int i = 0; i < 1000; ++i)
