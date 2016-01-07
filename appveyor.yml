@@ -5,6 +5,10 @@ configuration: Release
 before_build:
   - nuget restore
 
+test:
+  assemblies:
+    - '**\*Tests.dll'
+
 #before_test:
   #- ps: start-sleep -s 180
 #build_script:
